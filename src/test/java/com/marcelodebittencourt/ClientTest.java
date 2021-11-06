@@ -10,7 +10,11 @@ public class ClientTest {
     @Test
     @DisplayName("Create a new client")
     void testCreateNewClient() {
+        //entrada de dados I - Input
+        //Execução T - Test
+
         Client client = new Client(1, "Fulano");
+        //resultado R
         assertEquals(1, client.getId());
         assertEquals("Fulano", client.getName());
     }
